@@ -4,6 +4,11 @@
 ./vendor/bin/sail up
 ```
 
+### Migrate and seed the DB (just once)
+```shell
+./vendor/bin/sail artisan migrate --seed
+```
+
 ## Use it
 
 ```http request
